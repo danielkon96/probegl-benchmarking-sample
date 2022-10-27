@@ -44,7 +44,7 @@ async function sample_benchmark() {
 function App() {
   useEffect(() => {
     sample_benchmark()
-}, []);
+  }, []);
 
   return <div>Look in the development console to see your benchmark results!</div>
 }
